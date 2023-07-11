@@ -1,7 +1,15 @@
+import java.util.Scanner;
+
 class test {
   public static void main(String[] args) {
-    int a=5;
-    int b=20;
+    int a,b;
+    Scanner obj = new Scanner(System.in);
+    System.out.println("Type a number:");
+    a = obj.nextInt(); 
+
+    System.out.println("Type another number:");
+    b = obj.nextInt();
+
     int c=a+b;
     int d=b-a;
     System.out.println(c);
